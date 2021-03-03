@@ -1,29 +1,103 @@
+.cm-header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-header);
+  font-weight: 500;
+}
+
 .cm-header-1,
 h1 {
-  color: var(--accent-1);
+  color: var(--text-title-h1);
+  font-variant: common-ligatures small-caps;
+}
+
+blockquote .cm-header-1,
+blockquote h1 {
+  color: var(--text-title-h2);
+  font-variant: common-ligatures;
 }
 
 .cm-header-2,
 h2 {
-  color: var(--accent-2);
+  color: var(--text-title-h2);
 }
 
 .cm-header-3,
 h3 {
-  color: var(--accent-3);
+  color: var(--text-title-h3);
 }
 
 .cm-header-4,
 h4 {
-  color: var(--accent-4);
+  color: var(--text-title-h4);
 }
 
 .cm-header-5,
 h5 {
-  color: var(--accent-5);
+  color: var(--text-title-h5);
 }
 
 .cm-header-6,
 .markdown-preview-view h6 {
-  color: var(--accent-6);
+  color: var(--text-title-h6);
+}
+
+.markdown-preview-view h1:before,
+.markdown-preview-view h2:before,
+.markdown-preview-view h3:before,
+.markdown-preview-view h4:before,
+.markdown-preview-view h5:before,
+.markdown-preview-view h6:before {
+  content: "\00a7\00a0";
+  font-size: .6em;
+}
+
+.markdown-preview-view h1 code,
+.markdown-preview-view h2 code,
+.markdown-preview-view h3 code,
+.markdown-preview-view h4 code,
+.markdown-preview-view h5 code,
+.markdown-preview-view h6 code {
+  font-weight: normal;
+  font-size: 75%;
+}
+
+.cm-s-obsidian .cm-inline-code.cm-header {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.markdown-preview-view h1 a.tag,
+.markdown-preview-view h2 a.tag,
+.markdown-preview-view h3 a.tag,
+.markdown-preview-view h4 a.tag,
+.markdown-preview-view h5 a.tag,
+.markdown-preview-view h6 a.tag {
+  font-weight: normal;
+  font-size: 65%;
+  font-variant: common-ligatures;
+}
+
+.cm-s-obsidian .cm-header.cm-hashtag {
+  font-weight: normal;
+  font-size: 90%;
+  font-variant: common-ligatures small-caps;
+}
+
+.markdown-preview-view h1, 
+.markdown-preview-view h2, 
+.markdown-preview-view h3, 
+.markdown-preview-view h4, 
+.markdown-preview-view h5, 
+.markdown-preview-view h6 {
+  margin: 10px 0 5px 0;
+}
+
+h1:first-of-type {
+  padding-bottom: 0px !important;
+  margin-bottom: -20px !important;
 }

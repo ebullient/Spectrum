@@ -1,26 +1,68 @@
 :root,
 .theme-dark {
-  --main-node: #ffbe00;
-  --main-node-hover: #fe6a26;
-  --tags: #f19eee;
-  --external-link: #82d2e8;
-  --external-link-hidden: rgba(131, 197, 235, 0.3);
-  --main-background: #242424;
-  --secondary-background: #1b1b1b;
-  --secondary-background-low-opacity: #1b1b1b54;
-  --attachments: #69bceb;
+  --gray-dark-alt: #212121;
+  --gray-dark: #1b1b1b;
+  --gray: #424242;
+  --gray-mid-darkest: #616161;
+  --gray-mid-dark: #9a9a9a;
+  --gray-mid: #dedede;
+  --gray-mid-light: #e0e0e0;
+  --gray-light: #f8f8f2;
 
-  --accent-1: #f5704c;
-  --accent-2: #f5a14c;
-  --accent-3: #ede482;
-  --accent-4: #aade62;
-  --accent-5: #62deac;
-  --accent-6: #62b7de;
+  --gray-blue: #8cd0f0;
+
+  --bright-1: #8dc0f0;
+  --bright-2: #69e0f0;
+  --bright-3: #5fedde;
+  --bright-4: #81f7bc;
+  --bright-5: #b9fb93;
+  --bright-6: #f9f871;
+
+  --dark-1: #8cd0f0;
+  --dark-2: #84b6e5;
+  --dark-3: #8999d3;
+  --dark-4: #927cb7;
+  --dark-5: #995e94;
+  --dark-6: #964069;
+
+  --deep-violet: #6a0080;
+  --deep-blue: #007ac1;
+  --deep-green: #087f23;
+  // --yellow: #ffc107;
+  // --orange: #ff9800;
+  --red: #f44336;
+  --deep-red: #ba000d;
+
+  --main-node: var(--dark-3);
+  --main-node-hover: var(--dark-4);
+  --tags: var(--dark-5);
+  --external-link: var(--gray-blue);
+  --external-link-hidden: rgba(131, 197, 235, 0.3);
+  --main-background: var(--gray-dark-alt);
+  --secondary-background: var(--gray-dark);
+  --attachments: var(--deep-blue);
+
+  --text-title-h1: var(--bright-6);
+  --text-title-h2: var(--bright-5);
+  --text-title-h3: var(--bright-4);
+  --text-title-h4: var(--bright-3);
+  --text-title-h5: var(--bright-2);
+  --text-title-h6: var(--bright-1);
+
+  --accent-1: var(--dark-6);
+  --accent-2: var(--dark-5);
+  --accent-3: var(--dark-4);
+  --accent-4: var(--dark-3);
+  --accent-5: var(--dark-2);
+  --accent-6: var(--dark-1);
 
   /* Overriding Obsidian Variables */
-  --default-font: 'JetBrains Mono', monospace;
-  --font-monospace: var(--default-font);
-  --text-normal: #c9c9c9;
+  --default-font: 'Fira Sans', 'Optima', 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-monospace: 'Fira Code', 'Source Code Pro', monospace;
+  --font-tags: Architects Daughter, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-header: var(--font-tags);
+
+  --text-normal: var(--gray-mid);
 
   --background-primary: var(--main-background);
   --background-secondary: var(--secondary-background);

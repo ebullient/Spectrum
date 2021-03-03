@@ -1,14 +1,14 @@
 a {
-  color: var(--main-node);
+  color: var(--external-link);
 }
 
 .cm-s-obsidian span.cm-hmd-internal-link.cm-overlay {
-  color: var(--main-node);
+  color: var(--external-link);
   font-weight: 900;
 }
 
 .cm-s-obsidian span.cm-formatting-link {
-  color: var(--main-node);
+  color: var(--external-link);
   font-weight: 500;
 }
 
@@ -29,5 +29,14 @@ span.cm-formatting.cm-url + span.cm-url {
 }
 
 a:hover {
-  color: var(--main-node-hover);
+  color: var(--external-link-hidden);
+}
+
+span.nav {
+  border-top: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--background-modifier-border);
+  clear: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

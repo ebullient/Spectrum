@@ -5,4 +5,9 @@
 
 .internal-embed.is-loaded .markdown-embed {
   border: 0px solid black;
+  margin: 0;
+}
+
+.markdown-embed .markdown-preview-view {
+  padding-top: 10px !important;
 }
