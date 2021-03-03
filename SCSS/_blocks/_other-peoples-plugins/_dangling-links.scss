@@ -1,0 +1,9 @@
+.workspace-leaf-content[data-type=dangling-links] {
+    padding-top: 0px;
+    font-size: .9em;
+    color: var(--text-muted);
+}
+
+.workspace-leaf-content[data-type=dangling-links] ul {
+    padding-inline-start: 18px;
+}
