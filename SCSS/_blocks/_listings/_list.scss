@@ -17,10 +17,9 @@
   margin-bottom: 10px;
 }
 
-.workspace-leaf-content[data-type=markdown] ul li::marker {
+.theme-dark .workspace-leaf-content[data-type=markdown] ul li::marker {
   color: white;
 }
-
-.theme-light ul li::marker {
-  color: black;
+.theme-light .workspace-leaf-content[data-type=markdown] ul li::marker {
+  color: var(--gray-dark-5);
 }

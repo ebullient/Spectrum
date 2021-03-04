@@ -4,6 +4,16 @@
     color: var(--text-muted);
 }
 
+.workspace-leaf-content[data-type=dangling-links] .view-content{
+    padding-top: 0px;
+}
+
+.workspace-leaf-content[data-type=dangling-links] h3 {
+    margin-top: 0px;
+    font-family: var(--default-font);
+    font-weight: normal;
+}
+
 .workspace-leaf-content[data-type=dangling-links] ul {
     padding-inline-start: 18px;
 }
