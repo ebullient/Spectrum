@@ -32,11 +32,3 @@ a:hover {
   color: var(--external-link-hidden);
 }
 
-span.nav {
-  border-top: 1px solid var(--background-modifier-border);
-  border-bottom: 1px solid var(--background-modifier-border);
-  clear: right;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
