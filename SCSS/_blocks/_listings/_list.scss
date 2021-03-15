@@ -1,3 +1,11 @@
+.markdown-preview-view  ul {
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
 .cm-hmd-list-indent .cm-tab,
 .workspace-leaf-content[data-type=markdown] ul ul {
   position: relative;
@@ -14,7 +22,7 @@
 }
 
 .workspace-leaf-content[data-type=markdown] ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .theme-dark .workspace-leaf-content[data-type=markdown] ul li::marker {

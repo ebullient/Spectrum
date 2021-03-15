@@ -1,5 +1,7 @@
 .markdown-preview-view div p {
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
+  margin-block-start: .5em;
+  margin-block-end: .5em;
 }
 
 .markdown-source-view.is-readable-line-width .CodeMirror {
