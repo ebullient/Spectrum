@@ -13,6 +13,22 @@
   --gray-dark-4: #212121;
   --gray-dark-5: #1b1b1b;
 
+  --violet: #d05ce3;
+  --deep-violet: #6a0080;
+  --blue: #29b6f6;
+  --deep-blue: #007ac1;
+  --cyan: #00bcd4;
+  --bright-cyan: #05e2ff;
+  --bright-green: #b9fb93;
+  --green: #4caf50;
+  --deep-green: #087f23;
+  --yellow: #ffc107;
+  --orange: #ff9800;
+  --red: #f44336;
+  --deep-red: #ba000d;
+  --magenta: #e91e63;
+  --bright-pink: #ff8fb4;
+
   /* Overriding Obsidian Variables */
   --default-font: 'PT Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
   --font-monospace: 'Fira Code', 'Source Code Pro', monospace;
@@ -29,19 +45,24 @@
   --dark-2: #ff9e64;
   --dark-3: #9f65ff;
 
-  --pop-1: #cdfce0;
-  --pop-2: #cdfdf8;
-  --pop-3: #cdeafc;
-
-  --alt: #aea5be;
+  --pop-1: var(--violet);
+  --pop-2: var(--orange);
+  --pop-3: var(--yellow);
 
   --main-node: var(--dark-1);
   --main-node-hover: var(--bright-3);
+
+  --text-accent: var(--main-node);
+  --text-accent-hover: var(--main-node-hover);
+
   --attachments: var(--pop-3);
 
-  --tags: var(--alt);
-  --external-link: var(--alt);
-  --external-link-hidden: rgba(131, 197, 235, 0.3);
+  --tags: var(--bright-pink);
+
+  --alt: var(--gray-light-3);
+
+  --external-link: var(--gray-light-2);
+  --external-link-hidden: var(--deep-blue);
 
   --main-background: var(--gray-dark-4);
   --secondary-background: var(--gray-dark-5);
@@ -55,9 +76,9 @@
   --text-title-h5: var(--dark-1);
   --text-title-h6: var(--dark-1);
 
-  --accent-1: var(--dark-3);
-  --accent-2: var(--dark-2);
-  --accent-3: var(--dark-1);
+  --accent-1: var(--pop-1);
+  --accent-2: var(--pop-2);
+  --accent-3: var(--pop-3);
   --accent-4: var(--bright-3);
   --accent-5: var(--bright-2);
   --accent-6: var(--bright-1);
@@ -65,9 +86,6 @@
   --text-normal: var(--gray-light-2);
   --text-muted: var(--gray);
   --text-faint: var(--gray-dark-2);
-
-  --text-accent: var(--main-node);
-  --text-accent-hover: var(--main-node-hover);
 }
 
 .theme-light {
@@ -92,7 +110,7 @@
   --tags: var(--alt);
   --external-link: var(--alt);
   --external-link: var(--gray-blue);
-  --external-link-hidden: rgba(131, 197, 235, 0.3);
+  --external-link-hidden: rgba(136, 9, 130, 0.3);
 
   --main-background: var(--gray-light-5);
   --secondary-background: var(--gray-light-4);

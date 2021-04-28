@@ -8,7 +8,8 @@
   "homepage": "https://braweria.de",
   "main": "index.js",
   "scripts": {
-    "scss": "npx node-sass --output-style expanded SCSS/Spectrum.scss > obsidian.css"
+    "scss": "npx node-sass --output-style expanded SCSS/Spectrum.scss > obsidian.css",
+    "ithilien": "cp obsidian.css ~/git/ebullient/campaign-notes/.obsidian/themes/ebullient-spectrum.css; cp obsidian.css ~/Documents/Vault/.obsidian/themes/ebullient-spectrum.css; cp obsidian.css ~/Documents/Vault/.mobile/themes/ebullient-spectrum.css;"
   },
   "repository": {
     "type": "git",
