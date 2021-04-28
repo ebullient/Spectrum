@@ -134,17 +134,18 @@
   --dark-1: #006899;
   --dark-2: #993000;
   --dark-3: #990068;
-  --pop-1: #456600;
-  --pop-2: #530066;
-  --pop-3: #016;
+  --pop-1: #709c12;
+  --pop-2: #9c18b9;
+  --pop-3: rgb(85, 107, 216);
   --alt: #433464;
   --main-node: var(--dark-1);
   --main-node-hover: var(--bright-3);
+  --text-accent: var(--bright-1);
+  --text-accent-hover: var(--dark-2);
   --attachments: var(--pop-3);
-  --tags: var(--alt);
-  --external-link: var(--alt);
-  --external-link: var(--gray-blue);
-  --external-link-hidden: rgba(136, 9, 130, 0.3);
+  --tags: var(--violet);
+  --external-link: var(--gray-dark-2);
+  --external-link-hidden: var(--deep-blue);
   --main-background: var(--gray-light-5);
   --secondary-background: var(--gray-light-4);
   --background-primary: var(--main-background);
@@ -157,17 +158,15 @@
   --text-title-h4: var(--dark-1);
   --text-title-h5: var(--dark-1);
   --text-title-h6: var(--dark-1);
-  --accent-1: var(--dark-3);
-  --accent-2: var(--dark-2);
-  --accent-3: var(--dark-1);
+  --accent-1: var(--pop-1);
+  --accent-2: var(--pop-2);
+  --accent-3: var(--pop-3);
   --accent-4: var(--bright-3);
   --accent-5: var(--bright-2);
   --accent-6: var(--bright-1);
   --text-normal: var(--gray-dark-3);
   --text-muted: var(--gray-dark-2);
   --text-faint: var(--gray);
-  --text-accent: var(--main-node);
-  --text-accent-hover: var(--main-node-hover);
 }
 
 /*
@@ -251,7 +250,7 @@ a {
 
 a:hover {
   color: var(--text-accent-hover);
-  font-weight: bold;
+  text-decoration: wavy underline;
 }
 
 .cm-s-obsidian span.cm-hmd-internal-link.cm-overlay {
@@ -283,7 +282,7 @@ a:hover {
 
 .markdown-preview-view .internal-link.is-unresolved {
   opacity: 1;
-  text-decoration: dashed underline var(--text-accent);
+  text-decoration: dotted underline var(--text-accent);
 }
 
 a.external-link[href*='youtube'] {

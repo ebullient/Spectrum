@@ -3,7 +3,7 @@ a {
 }
 a:hover {
   color: var(--text-accent-hover);
-  font-weight: bold;
+  text-decoration: wavy underline;
 }
 
 .cm-s-obsidian span.cm-hmd-internal-link.cm-overlay {
@@ -34,5 +34,5 @@ a:hover {
 }
 .markdown-preview-view .internal-link.is-unresolved {
   opacity: 1;
-  text-decoration: dashed underline var(--text-accent);
+  text-decoration: dotted underline var(--text-accent);
 }
